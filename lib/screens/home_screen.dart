@@ -14,9 +14,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppPallet.kDarkBackgroundColor,
+      backgroundColor: AppPallet.kPrimaryColor,
       body: Center(
-        child: Container(),
+        child: Container(
+        ),
       ),
     );
   }
